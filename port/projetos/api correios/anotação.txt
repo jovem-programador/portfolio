@@ -1,0 +1,64 @@
+/* Criando Elementos HTML - Colocando dados dentro de Divs
+
+
+const conteudoDaBusca = document.querySelector(".conteudo")
+
+const div = document.createElement("div")
+const logradouro = document.createElement("p")
+const cidade = document.createElement("p")
+const bairro = document.createElement("p")
+const estado = document.createElement("p")
+const cepp = document.createElement("h1")
+
+const labelcep = document.createElement("label")
+const labeluf = document.createElement("label")
+const labellocalidade = document.createElement("label")
+const labellograduro = document.createElement("label")
+const labecidade = document.createElement("label")
+
+*/
+
+/* Atribuindo os dados dentro dos Elementos da Div
+
+    labelcep.innerText = "CEP:"
+    cepp.innerText = data.cep
+
+    labeluf.innerText = "Estado:"
+    estado.innerText = data.uf
+
+    labellocalidade.innerText = "Cidade:"
+    cidade.innerText = data.localidade
+
+    labecidade.innerText = "Bairro:"
+    bairro.innerText = data.bairro
+
+    labellograduro.innerText = "Rua:"
+    logradouro.innerText = data.logradouro
+
+    div.appendChild(labelcep)
+    div.appendChild(cepp)
+
+    div.appendChild(labeluf)
+    div.appendChild(estado)
+
+    div.appendChild(labellocalidade)
+    div.appendChild(cidade)
+
+    div.appendChild(labecidade)
+    div.appendChild(bairro)
+
+    div.appendChild(labellograduro)
+    div.appendChild(logradouro)
+
+   conteudoDaBusca.appendChild(div)
+*/
+
+/* Função que limpavas os dados para uma nova consulta
+function clearDados() {
+    cepp.innerText = ' '
+    estado.innerText = ' '
+    cidade.innerText = ' '
+    bairro.innerText = ' '
+    logradouro.innerText = ' '
+}
+*/

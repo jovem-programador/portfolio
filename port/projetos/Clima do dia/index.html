@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Clima Day</title>
+</head>
+<body>
+    <div class="container">
+        <div class="busca">
+            <div class="pes">
+                <i class="fa-solid fa-location-dot fa-sm"></i>
+
+                <input type="text" id="trem" placeholder="Localização">
+
+                <button onclick="buscar()"><i class="fa-solid fa-magnifying-glass fa-xs"></i></button>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <div class="imagem">
+                <img src="../img/tempestade.png" id="imgClima">
+                <span id="temp">GRAUS</span>
+            </div>
+            <div class="clima">
+                <!--<img src="https://openweathermap.org/img/wn/11d@2x.png" id="iconClima">!-->
+                <span id="clima">NUBLADO</span>
+            </div>
+
+            <div class="status">
+                <div class="teste">
+                    <i class="fa-solid fa-water fa-lg"></i>
+                    <div class="dados">
+                        <span id="humidade">99%</span>
+                        <span id="texto">Humidade</span>
+                    </div>
+                    
+                </div>
+                
+                <div>
+                    <div class="teste">
+                        <i class="fa-solid fa-wind fa-lg"></i>
+                        <div class="dados">
+                            <span id="veloVento">8km/h</span>
+                            <span id="texto">Vel. Vento</span>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
