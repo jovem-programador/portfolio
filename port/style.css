@@ -1,74 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: start;
-    align-items: center;
-
-    box-sizing: border-box;
-
-    background-color: #000000e0;
-    font-family: 'Raleway', sans-serif;
+    background-color: #123142;
+    font-family: 'Titillium Web', sans-serif;
+    overflow: none;
 }
 
-nav {
-    width: 90vw;
-    height: 15vh;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-nav img {
-    width: 200px;
-    height: 200px;
-}
-
-ul, li {
-    list-style: none;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-li a {
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: 600;
-    text-decoration: none;
-    border: none;
-    transition: color 1s;
-}
-
-li a:hover {
-    color: #9016bf;
-}
-
-.redes_sociais {
-    position: fixed;
-    right: 2%;
-    bottom: 50%;
-
+.container-fluid {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    padding: 0;
 }
 
-main {
-    width: 90vw;
-    height: 90vh;
-
+header {
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,210 +26,183 @@ main {
 }
 
 .box {
-    width: 600px;
-    height: 600px;
-}
-
-.pt1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    gap: 20px;
-}
-
-.pt1 h1 {
-    font-size: 60px;
-    color: #ffffff;
-}
-
-.pt1 h2 {
-    font-size: 30px;
-    color: #ffffff;
-}
-
-.pt1 h3 {
-    font-size: 15px;
-    color: #ffffff;
-    font-weight: 600;
-}
-
-.pt2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pt2 img{
-    width: 300px;
-    height: 300px;
-}
-
-section {
-    width: 90vw;
-    height: 90vh;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
-
-.titulo {
-    width: 90vw;
-    height: 100px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.titulo h1{
-    font-size: 60px;
-    color: #ffffff;
-}
-
-.teste {
-    width: 85vw;
-    height: 50vh;
-
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 20px;
-
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
-.cont {
-    width: 400px;
-    height: 450px;
+    width: 40%;
+    height: 70%;
 
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    gap: 25px;
-
-    background-color: #edebe6;
-    border-radius: 30px;
+    color: #ffffff;
 }
 
-.cont p {
-    text-align: center;
-    font-size: 20px;
-    color: #15212a;
+.texto h1 {
+    font-size: 60px;
     font-weight: 900;
 }
 
-button {
-    width: 100px;
-    height: 30px;
-
-    border: none;
-    border-radius: 20px;
-
-    color: #ffffff;
-    background-color: #9016bf;
-    cursor: pointer;
-}
-.locimg {
-    width: 370px;
-    height: 200px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border-radius: 20px;
-    background-color: #ffffff;
+.texto p {
+    font-size: 22px;
 }
 
-aside {
-    width: 90vw;
+.box img {
+    width: 350px;
+    height: 350px;
+}
+
+section {
+    width: 100%;
     height: 70vh;
-
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    gap: 100px;
 }
 
-aside h1 {
+h1 {
     font-size: 60px;
     color: #ffffff;
 }
 
-.dados {
+.progresso {
+    width: 70%;
+    height: 50vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: #ffffff;
+}
+
+.progress {
+    width:  50%;
+    height: 5%;
+}
+
+.progress-bar {
+    font-weight: 900;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+main {
+    width: 100%;
+    height: 70vh;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+
+    overflow: hidden;
+}
+
+.projetos {
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.contato {
-    width: 500px;
-    height: 50px;
+.card img {
+    width: 150px;
+    height: 150px;
+}
+
+.card{
+    height: 380px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    background-color: #1e6495;
-    border-radius: 20px;
-    color: #ffffff;
 }
 
-footer {
-    width: 90vw;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-}
-
-
-.conhecimento {
-    width: 90vw;
-    height: 50vh;
+.card-body {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
-    background-color: #9016bf;
-}
-
-.container-barra {
-    width: 40vh;
-    height: 3vh;
-    border: none;
-    border-radius: 20px;
-    background-color: whitesmoke;
-}
-
-.barra {
-    height: 100%;
-    width: 20%;
-    border: none;
-    border-radius: 20px;
-    background-color: #15212a;
-
-    display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
-    overflow: hidden;
-    color: #ffffff;
+    text-align: center;
 }
 
-.barra h4 {
-    color: red;
-}
+.informacoes {
+    width: 100%;
+    height: 50vh;
 
-.estrutura {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
+}
+
+.info {
+    width: 30%;
+}
+
+.list-group {
+    font-weight: 900;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .box {
+        width: 80%;
+        height: 40%;
+        font-size: 18px;
+    }
+
+    .box img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .progress {
+        width: 100%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+        height: 140vh;
+        overflow: scroll;
+    }
+
+    .projetos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-sm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .info {
+        width: 80%;
+    }
 }
