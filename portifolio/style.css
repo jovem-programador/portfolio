@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Shantell+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Shantell Sans', cursive;
+    background-color: #0A1128;
+}
+
+.container {
+    width: 80vw;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 80vw;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    color: #f2f2f2
+}
+
+.box {
+    width: 35vw;
+    height: 60vh;
+
+    border-radius: 20px;
+}
+
+.header01 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+}
+
+.header02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(img/cool-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+h1 {
+    font-size: 70px;
+    color: #f2f2f2;
+}
+
+img {
+    width: 450px;
+    height: 450px;
+}
+
+section {
+    width: 80vw;
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.sobre {
+    width: 60vw;
+    height: 20vh;
+    background-color: #f2f2f2;
+}
